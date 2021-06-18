@@ -7,7 +7,7 @@
         - package.json 配置workspaces以及本地依赖引用
       - components 
         - package.json 本地共享依赖包
-      - main
+      - main  --基座
     
 ## 为什么要使用monorepo？
  - 优势  
