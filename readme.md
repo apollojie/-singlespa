@@ -20,6 +20,8 @@
     - npm包
     - parcel （跨项目跨框架的情况下推荐使用）
     - systemjs import-map（对于如何实现依然模糊）
+    - global自定义参数  
+      将公共组件提升至项目顶层，在registerApplication注册项目时，将组件以{components:[vm1,vm2]}的形式传递给需要共享的项目，并在子项目的bootstrap生命周期中获取该共享组件并实现全局注册。这种方式好与坏暂时没有明确。
     - monorepo
     - git submodule
 
