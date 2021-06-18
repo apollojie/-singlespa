@@ -4,6 +4,11 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "serve": "lerna run serve",
+    "serve:base-data": "lerna --scope @monorepo/base-data run serve",
+    "serve:main": "lerna --scope @monorepo/main run serve",
+  },
   "devDependencies": {
     "lerna": "^4.0.0"
   }

@@ -36,9 +36,7 @@ export default {
 }
 </script>
 <style>
-.nav-menu{
-  height: 100%;
-}
+
 </style>
 <style lang="scss">
 </style>
