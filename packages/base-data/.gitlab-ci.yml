@@ -1,0 +1,9 @@
+include:
+  - project: 'ecloud/ecloud-cicd-template'
+    ref: master
+    file: '/.gitlab/ci/ecloud.vue.cdn.gitlab-ci.yml'
+
+variables:
+  BUILD_PATH: "dist"
+  ALI_OSS_BUCKET_PATH: "base-data"  # 项目的目录，例如order：ips-dev.qizhidao.com/order/
+  DELETE_OLD_VERSION_OSS_FILE: "TRUE"   #在更新前，是否删除旧版本文件

@@ -1,0 +1,9 @@
+include:
+  - project: 'ecloud/ecloud-cicd-template'
+    ref: master
+    file: '/.gitlab/ci/ecloud.vue.cdn.gitlab-ci.yml'
+
+variables:
+  BUILD_PATH: "dist"
+  ALI_OSS_BUCKET_PATH: ""  # 项目的目录
+
