@@ -32,7 +32,3 @@
 
  - cnpm run serve  
  如果想实时查看项目的运行进度和运行地址，可以通过cd packages/base-data进入项目，执行cnpm run serve执行对应的子项目
-
-
-## 尝试
-demo是一种尝试，本意是想换种方式来解决singlespa组件跨项目共享的问题
