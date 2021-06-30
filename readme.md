@@ -28,7 +28,7 @@
  monorepo顶层目录下，执行 lerna bootstrap。这一步的目的是将packages/*中的所有项目的共同依赖以及本地依赖（packages/components）添加至顶层node_modules包中，以便在其它项目中引用。执行完lerna bootstrap命令后，在顶层node_modules包中可以查看到@monorepo这个依赖包。
 
  - lerna run serve  
- 可以将packages/*下的所有子项目运行，因本人对lerna的了解有限，使用该命令后发现无法得知项目运行进度和
+ 可以将packages/*下的所有子项目运行
 
  - cnpm run serve  
  如果想实时查看项目的运行进度和运行地址，可以通过cd packages/base-data进入项目，执行cnpm run serve执行对应的子项目
