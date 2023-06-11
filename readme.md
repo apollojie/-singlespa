@@ -1,5 +1,7 @@
 # monorepo + singleSpa实现同一框架组件跨项目共享
 
+[nginx + node子进程版](https://github.com/jiefancis/vue-multi-modules)
+
 ## 项目目录
   - monorepo
     - packages
@@ -8,7 +10,7 @@
       - components 
         - package.json 本地共享依赖包
       - main  --基座
-    
+
 ## 为什么要使用monorepo？
  - 优势  
  本地依赖包（本demo中是components）的更改可以在引用它的项目中实时更新。适用于本地依赖包频繁改动的项目。如果依赖包基本没有改动，建议使用 npm 包的形式。
