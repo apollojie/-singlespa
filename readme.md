@@ -1,4 +1,4 @@
-# monorepo + singleSpa实现同一框架组件跨项目共享
+# monorepo + singleSpa
 
 [nginx + node子进程版，点击查看](https://github.com/jiefancis/vue-multi-modules)
 
